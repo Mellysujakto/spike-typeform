@@ -16,8 +16,8 @@ class MyMoodMeterWebView {
                 backgroundColor: Colors.transparent,
                 children: <Widget>[
                   Container(
-                    height: MediaQuery.of(context).size.height * 0.8,
-                    width: MediaQuery.of(context).size.width * 0.8,
+                    height: MediaQuery.of(context).size.height * 0.5,
+                    width: MediaQuery.of(context).size.width * 0.9,
                     child: Stack(
                       children: <Widget>[
                         ClipRRect(
